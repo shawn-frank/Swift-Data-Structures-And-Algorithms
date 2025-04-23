@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2B4E17742DB8606700291AAA /* CopyFiles */ = {
+		2B4E17D72DB9064F00291AAA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -19,19 +19,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2B4E17762DB8606700291AAA /* 125 - Valid palindrome */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "125 - Valid palindrome"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4E17D92DB9064F00291AAA /* 125 - Valid Palindrome */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "125 - Valid Palindrome"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		2B4E17782DB8606700291AAA /* 125 - Valid palindrome */ = {
+		2B4E17DB2DB9064F00291AAA /* 125 - Valid Palindrome */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "125 - Valid palindrome";
+			path = "125 - Valid Palindrome";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2B4E17732DB8606700291AAA /* Frameworks */ = {
+		2B4E17D62DB9064F00291AAA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,18 +41,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B4E176D2DB8606700291AAA = {
+		2B4E17D02DB9064F00291AAA = {
 			isa = PBXGroup;
 			children = (
-				2B4E17782DB8606700291AAA /* 125 - Valid palindrome */,
-				2B4E17772DB8606700291AAA /* Products */,
+				2B4E17DB2DB9064F00291AAA /* 125 - Valid Palindrome */,
+				2B4E17DA2DB9064F00291AAA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2B4E17772DB8606700291AAA /* Products */ = {
+		2B4E17DA2DB9064F00291AAA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B4E17762DB8606700291AAA /* 125 - Valid palindrome */,
+				2B4E17D92DB9064F00291AAA /* 125 - Valid Palindrome */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,64 +60,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2B4E17752DB8606700291AAA /* 125 - Valid palindrome */ = {
+		2B4E17D82DB9064F00291AAA /* 125 - Valid Palindrome */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B4E177D2DB8606700291AAA /* Build configuration list for PBXNativeTarget "125 - Valid palindrome" */;
+			buildConfigurationList = 2B4E17E02DB9064F00291AAA /* Build configuration list for PBXNativeTarget "125 - Valid Palindrome" */;
 			buildPhases = (
-				2B4E17722DB8606700291AAA /* Sources */,
-				2B4E17732DB8606700291AAA /* Frameworks */,
-				2B4E17742DB8606700291AAA /* CopyFiles */,
+				2B4E17D52DB9064F00291AAA /* Sources */,
+				2B4E17D62DB9064F00291AAA /* Frameworks */,
+				2B4E17D72DB9064F00291AAA /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				2B4E17782DB8606700291AAA /* 125 - Valid palindrome */,
+				2B4E17DB2DB9064F00291AAA /* 125 - Valid Palindrome */,
 			);
-			name = "125 - Valid palindrome";
+			name = "125 - Valid Palindrome";
 			packageProductDependencies = (
 			);
-			productName = "125 - Valid palindrome";
-			productReference = 2B4E17762DB8606700291AAA /* 125 - Valid palindrome */;
+			productName = "125 - Valid Palindrome";
+			productReference = 2B4E17D92DB9064F00291AAA /* 125 - Valid Palindrome */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2B4E176E2DB8606700291AAA /* Project object */ = {
+		2B4E17D12DB9064F00291AAA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					2B4E17752DB8606700291AAA = {
+					2B4E17D82DB9064F00291AAA = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = 2B4E17712DB8606700291AAA /* Build configuration list for PBXProject "125 - Valid palindrome" */;
+			buildConfigurationList = 2B4E17D42DB9064F00291AAA /* Build configuration list for PBXProject "125 - Valid Palindrome" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 2B4E176D2DB8606700291AAA;
+			mainGroup = 2B4E17D02DB9064F00291AAA;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 2B4E17772DB8606700291AAA /* Products */;
+			productRefGroup = 2B4E17DA2DB9064F00291AAA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B4E17752DB8606700291AAA /* 125 - Valid palindrome */,
+				2B4E17D82DB9064F00291AAA /* 125 - Valid Palindrome */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2B4E17722DB8606700291AAA /* Sources */ = {
+		2B4E17D52DB9064F00291AAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -127,7 +127,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2B4E177B2DB8606700291AAA /* Debug */ = {
+		2B4E17DE2DB9064F00291AAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		2B4E177C2DB8606700291AAA /* Release */ = {
+		2B4E17DF2DB9064F00291AAA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -245,7 +245,7 @@
 			};
 			name = Release;
 		};
-		2B4E177E2DB8606700291AAA /* Debug */ = {
+		2B4E17E12DB9064F00291AAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -256,7 +256,7 @@
 			};
 			name = Debug;
 		};
-		2B4E177F2DB8606700291AAA /* Release */ = {
+		2B4E17E22DB9064F00291AAA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -270,25 +270,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B4E17712DB8606700291AAA /* Build configuration list for PBXProject "125 - Valid palindrome" */ = {
+		2B4E17D42DB9064F00291AAA /* Build configuration list for PBXProject "125 - Valid Palindrome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B4E177B2DB8606700291AAA /* Debug */,
-				2B4E177C2DB8606700291AAA /* Release */,
+				2B4E17DE2DB9064F00291AAA /* Debug */,
+				2B4E17DF2DB9064F00291AAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B4E177D2DB8606700291AAA /* Build configuration list for PBXNativeTarget "125 - Valid palindrome" */ = {
+		2B4E17E02DB9064F00291AAA /* Build configuration list for PBXNativeTarget "125 - Valid Palindrome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B4E177E2DB8606700291AAA /* Debug */,
-				2B4E177F2DB8606700291AAA /* Release */,
+				2B4E17E12DB9064F00291AAA /* Debug */,
+				2B4E17E22DB9064F00291AAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2B4E176E2DB8606700291AAA /* Project object */;
+	rootObject = 2B4E17D12DB9064F00291AAA /* Project object */;
 }
