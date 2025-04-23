@@ -3,7 +3,8 @@
 //  15 - Three sum
 //
 //  Created by Shawn Frank on 23/4/2025.
-//
+//  https://leetcode.com/problems/3sum/description/
+//  https://www.youtube.com/watch?v=jzZsG8n2R9A&ab_channel=NeetCode
 
 import Foundation
 
