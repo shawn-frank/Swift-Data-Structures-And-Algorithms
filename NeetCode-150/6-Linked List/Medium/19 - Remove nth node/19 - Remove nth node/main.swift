@@ -48,3 +48,32 @@ func removeNthFromEnd(_ head: ListNode?, _ n: Int) -> ListNode? {
     return head
 }
 
+func removeNthFromEndRecursive(_ head: ListNode?, _ n: Int) -> ListNode? {
+    // Empty list
+    guard head != nil else { return head }
+    
+    // Used to get the node before the target to delete as we only have forward pointers
+    // so we need the previous node to point to the node to be deleted's next
+    var dummy: ListNode? = ListNode(0, head)
+    
+    var right = head
+    var left = dummy
+    
+    // Move right till we get the correct distance
+    for iteration in 1 ... n {
+        right = right?.next
+    }
+    
+    // Deleting the first element scenario
+    guard right != nil else { return head?.next }
+    
+    // All other cases
+    while right != nil {
+        left = left?.next
+        right = right?.next
+    }
+    
+    left?.next = left?.next?.next
+    return dummy?.next
+}
+
