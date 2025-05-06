@@ -27,7 +27,7 @@ func fib(of value: Int) -> Int {
 }
 
 
-print(fib(of: 2))
-print(fib(of: 5))
-print(fib(of: 15))
-print(fib(of: 40))
+print(fib(of: 2)) // 1
+print(fib(of: 5)) // 5
+print(fib(of: 15)) // 610
+print(fib(of: 40)) // 102334155
