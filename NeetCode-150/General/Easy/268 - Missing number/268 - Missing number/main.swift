@@ -24,6 +24,6 @@ func missingNumber(_ nums: [Int]) -> Int {
     return expectedSum - actualSum
 }
 
-print(missingNumber([3,0,1]))
-print(missingNumber([0,1]))
-print(missingNumber([9,6,4,2,3,5,7,0,1]))
+print(missingNumber([3,0,1])) // 2
+print(missingNumber([0,1])) // 2
+print(missingNumber([9,6,4,2,3,5,7,0,1])) // 8
